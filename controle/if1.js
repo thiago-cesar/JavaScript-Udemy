@@ -11,7 +11,7 @@ function seForVerdade(valor){
         console.log('É verdade... '+valor)
     }
 }
-//Comentário teste.////
+//Comentário teste./
 seForVerdade()
 seForVerdade(null)
 seForVerdade(undefined)
