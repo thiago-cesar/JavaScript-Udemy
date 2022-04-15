@@ -1,5 +1,5 @@
 function frutasVendidas(fruta){
-    var fruta;
+    
 
     switch(fruta){
         case 'maçã':
