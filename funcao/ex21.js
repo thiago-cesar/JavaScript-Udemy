@@ -11,7 +11,7 @@ function planoDeSaude(idade){
     }else if (idade>=10 && idade<=30) {
         mensalVar=50;
         perfil="Plano conveniado entre 10 e 30 anos.";
-    } else if(idade>30 &&idade<=60)
+    } else if(idade>30 &&idade<=60){
         mensalVar=95;
         perfil="Plano conveniado entre 30 e igual a 60 anos.";
     }else if(idade>60){
