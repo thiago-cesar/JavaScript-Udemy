@@ -1,0 +1,19 @@
+const despesasTotais=([
+    {nome:"Jornal Online", categoria:"Informação", preco:89.99},
+    {nome:"Cinema", categoria:"Entretenimento", preco:100}
+])
+
+function totalCarrinho(produtos){
+
+    
+
+    const resultado= produtos.map(p=>p.preco).reduce(function(total,valor){
+        return total+valor
+    
+    })
+
+    return resultado
+
+}
+
+console.log(totalCarrinho(despesasTotais))
